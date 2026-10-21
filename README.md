@@ -4,20 +4,20 @@ MentorFlow 项目学习指南，按从零认识项目、理解架构与专题，
 
 ## 目录
 
-- [从零到一：一步步搭起现在的 MentorFlow](docs/00-from-zero-to-one.md)
-- [总架构：MentorFlow 的主要部分怎样协作](docs/01-overall-architecture.md)
-- [技术栈：带你开一家学习资料室](docs/02-tech-stack.md)
-- [专题：从一摞资料到一张能照着学的计划](docs/03-plan-from-materials.md)
-- [资料问答 RAG：从上传到回答](docs/04-rag-from-upload-to-answer.md)
-- [专题：课堂里，AI 老师怎么教、怎么考](docs/05-classroom.md)
-- [专题：两台电脑怎样接上同一份学习账](docs/06-sync.md)
-- [07｜账号与登录：谁认得你，谁让你进门](docs/07-account-and-login.md)
-- [本地数据与时长账本：一本不会把待还擦掉的学习存折](docs/08-local-data-and-ledger.md)
-- [09 发布与软件内更新](docs/09-release-and-update.md)
-- [安装与启动：从下载安装包到登录窗口](docs/10-install-and-startup.md)
-- [设计取舍：为什么 MentorFlow 按这些规矩做](docs/11-design-decisions.md)
-- [BUG 故事：学习资料室的十次抢修](docs/12-bug-stories.md)
-- [面试自测：六组练习把项目讲清楚](docs/13-interview-self-test.md)
+- [模块01｜MentorFlow项目故事：产品、边界与一次课堂提问](docs/00-project-story.md)
+- [模块02｜原题抽取与判分边界](docs/01-source-questions-and-grading.md)
+- [模块03｜从资料到学习计划](docs/02-material-to-plan.md)
+- [模块04｜资料问答的RAG完整链路](docs/03-rag-pipeline.md)
+- [模块05｜向量候选与关键词排序](docs/04-retrieval-design.md)
+- [模块06｜AI回答的依据与质量](docs/05-ai-answer-quality.md)
+- [模块07｜认证与授权：确认身份不等于开放所有数据](docs/06-authentication-and-authorization.md)
+- [模块08｜原生会话：短期访问凭证与可轮换续期凭证](docs/07-native-sessions.md)
+- [模块09｜同步冲突与重试：CAS和幂等各管一类问题](docs/08-sync-conflict-and-retry.md)
+- [10｜数据增长后的同步成本](docs/09-sync-growth-and-performance.md)
+- [11｜账号隔离：每份数据都要有归属边界](docs/10-account-isolation.md)
+- [12｜Java迁移与兼容验证](docs/11-java-migration-and-contracts.md)
+- [13｜数据升级：保留旧计划和真实进度](docs/12-data-evolution-and-progress.md)
+- [14｜登录故障复盘与个人贡献](docs/13-incident-and-contribution.md)
 
 ## 在 MentorFlow 中使用
 
