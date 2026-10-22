@@ -22,3 +22,7 @@ MentorFlow 项目学习指南，按从零认识项目、理解架构与专题，
 ## 在 MentorFlow 中使用
 
 在 MentorFlow 新建计划时，把本仓库的 GitHub 链接粘贴到资料来源，即可导入整套指南。
+
+## 许可证
+
+MIT，见 [LICENSE](LICENSE)。
